@@ -5,6 +5,7 @@ function Ciccio({nome, eta}) {
 
 
     const [contatore, setContatore] = useState(0);
+    
     function gestisciClick(){
         setContatore(contatore +1);
     }
